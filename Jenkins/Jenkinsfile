@@ -13,6 +13,11 @@ pipeline{
         // whatever other supported tools
     //}
 
+    // add the triggers for when this pipeline will rebuild
+    triggers {
+        githubPush()
+    }
+
     // configure the build options for this pipeline
     options{
         // only keep record of last 5 pipeline builds
