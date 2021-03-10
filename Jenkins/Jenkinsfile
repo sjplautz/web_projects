@@ -1,5 +1,4 @@
 pipeline{
-    // able to build on any jenkins node
     agent any
 
     // allow the build to accept parameters to enhance pipeline flexibility
